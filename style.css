@@ -46,28 +46,46 @@ border-radius: 12px;
   background-color: orange;
   padding: 20px;
   grid-gap: 20px;
+  grid-template-areas:
+  "a b"
 }
+
+.ch-left{
+    display: grid;
+    background-color: blue;
+    padding: 20px;
+    grid-gap: 20px;
+    grid-template-areas:
+    "d d d c c";
+    justify-content: space-between;
+}
+
+.ch-right{
+  display: grid;
+  background-color: blue;
+  padding: 20px;
+  grid-gap: 20px;
+  grid-template-areas:
+  "d d c c c";
+  justify-content: space-between;
+}
+
+.img-3{grid-area: c;
+background-color: white;}
+.img-4{grid-area: d;
+background-color: white;}
+
+.img-1{grid-area: a;}
+.img-2{grid-area: b;}
+
 .ch-right{
   grid-template-columns: auto 300px;
 }
 .ch-left{
     grid-template-columns: 500px auto;
 }
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create two equal columns that sits next to each other */
-.column {
-  flex: 50%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
+.ch-left > image{
+  float: right;
 }
 
 /* Style the header */

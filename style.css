@@ -6,20 +6,28 @@ html, body {
    padding: 0;
  }
 
+ body{font-size: 15px;}
+
 h2{
+  font-family: 'EB Garamond', serif;
   font-size: 50px;
 }
 
 h3{
+  font-family: 'Jura', sans-serif;
   font-size: 25px;
 }
 
-p{font-size: 20px;}
+p{font-size: 20px;
+  font-family: 'Piazzolla', serif;
+}
 
-ul{font-size: 20px;}
+ul{
+  font-size: 20px;
+  font-family: 'Piazzolla', serif;
+}
 
 a{text-decoration: none;}
-body{font-size: 15px;}
 /*colors*/
 .navy{color: #1c1f4c}
 .emerald{color: #00848c}
@@ -48,18 +56,29 @@ body{font-size: 15px;}
   grid-template-columns: 50% 50%;
 }
 
+.third{
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-button{
+}
+
 .button {
-  background-color: #4CAF50; /* Green */
+  background-color: #edebd9;
   border: none;
-  color: white;
-  padding: 20px;
+  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 20px;
+  font-family:'Piazzolla', serif;
   cursor: pointer;
-  border-radius: 8px;
+}
+
+button:focus{
+  background-color: white;
+  outline: none;
 }
 
 .button1 {
@@ -87,53 +106,6 @@ border-radius: 12px;
   background-color: rgba(255, 255, 255, 0.8);
   text-align: left;
   padding: 20px 0;
-}
-
-.chess-container{
-  display: grid;
-  background-color: orange;
-  padding: 20px;
-  grid-gap: 20px;
-  grid-template-areas:
-  "a b"
-}
-
-.ch-left{
-    display: grid;
-    background-color: blue;
-    padding: 20px;
-    grid-gap: 20px;
-    grid-template-areas:
-    "d d d c c";
-    justify-content: space-between;
-}
-
-.ch-right{
-  display: grid;
-  background-color: blue;
-  padding: 20px;
-  grid-gap: 20px;
-  grid-template-areas:
-  "d d c c c";
-  justify-content: space-between;
-}
-
-.img-3{grid-area: c;
-background-color: white;}
-.img-4{grid-area: d;
-background-color: white;}
-
-.img-1{grid-area: a;}
-.img-2{grid-area: b;}
-
-.ch-right{
-  grid-template-columns: auto 300px;
-}
-.ch-left{
-    grid-template-columns: 500px auto;
-}
-.ch-left > image{
-  float: right;
 }
 
 /* Style the header */

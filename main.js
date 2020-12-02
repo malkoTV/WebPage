@@ -13,6 +13,14 @@ function readMoreOrLess(dotsS, moreTextS, btnTextS) {
   }
 }
 
+function swap(shownEl, swappedEl, pressedBtn, releasedBtn)
+{
+	var shown = document.getElementById(shownEl);
+	var swapped = document.getElementById(swappedEl);
+	shown.style.display = "none";
+	swapped.style.display = "block";
+}
+
 function foo(name)
 {
   document.write("Hello, I am " + name);

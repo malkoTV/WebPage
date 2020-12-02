@@ -1,0 +1,136 @@
+html, body, div,
+ h1, h2, h3, h4, h5, h6,
+ p, a, ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+footer, header, nav {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  line-height: 1.618;
+}
+
+a {
+  text-decoration: none;
+color: inherit;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+p:not(:last-child) {
+  margin: 0 0 1em;
+}
+
+h1, h2, h3, h4 {
+  margin: .5em 0 .75em;
+  line-height: 1.3;
+}
+
+h1 { font-size: 1.5em;
+    font-family: 'EB Garamond', serif;
+  }
+
+h2 { font-size: 1.25em;
+  font-family: 'EB Garamond', serif;
+}
+
+h3 { font-size: 1.125em;
+  font-family: 'Jura', sans-serif;
+}
+
+h4 { font-size: 1em;
+  font-family: 'Jura', sans-serif;
+ }
+
+p {
+  font-family: 'Piazzolla', serif;
+  font-weight: 600;
+}
+
+html { box-sizing: border-box; }
+
+.wrapper {
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1.5em;
+}
+
+.masonry-wrapper {
+  padding: 1.5em;
+  margin-right: auto;
+  margin-left: auto;
+}
+.masonry {
+  columns: 5;
+  column-gap: 10px;
+}
+
+.masonry-item {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 10px;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, .5));
+    transition: filter .25s ease-in-out;
+
+    background-color:  #edebd9;;
+}
+.masonry-item:hover {
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, .5));
+}
+
+.masonry-item, .masonry-content {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.masonry-content {
+  overflow: hidden;
+}
+
+.masonry-title, .masonry-description {
+  margin: 0;
+}
+.masonry-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 1rem 1.5rem;
+}
+.masonry-description {
+  padding: 1.5rem;
+  font-size: .75rem;
+  border-top: 1px solid rgba(0, 0, 0, .05);
+}
+.masonry-footer {
+  font-size: .75em;
+  opacity: .25;
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  margin-bottom: -1.5em;
+  transition: opacity 1s ease-in-out;
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {  .masonry {
+    columns: 3;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .masonry {
+    columns: 5;
+  }
+}

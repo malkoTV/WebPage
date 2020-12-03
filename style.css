@@ -25,6 +25,8 @@ p{font-size: 20px;
 ul{
   font-size: 20px;
   font-family: 'Piazzolla', serif;
+   list-style-position: inside;
+   padding: 10px;
 }
 
 a{text-decoration: none;}
@@ -106,24 +108,6 @@ border-radius: 12px;
   background-color: rgba(255, 255, 255, 0.8);
   text-align: left;
   padding: 20px 0;
-}
-
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-
-/* Style the footer */
-footer {
-  background-color: #668;
-  padding: 100px;
-  text-align: center;
-  font-size: 35px;
-  color: yellow;
 }
 
 </style>

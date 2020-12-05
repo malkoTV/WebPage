@@ -21,7 +21,7 @@ function swap(shownEl, swappedEl, pressedBtn, releasedBtn)
 	swapped.style.display = "block";
 }
 
-function foo(name)
-{
-  document.write("Hello, I am " + name);
+function slide(sliderID, trStyle) {
+		var slider = document.getElementById(sliderID);
+		slider.style.transform = trStyle;
 }

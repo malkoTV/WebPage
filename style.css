@@ -79,7 +79,7 @@ a{text-decoration: none;}
 }
 
 .button2 {
-  
+
 }
 
 .button2:focus{
@@ -155,6 +155,33 @@ border-radius: 12px;
   background: #037272;
   right: 0px;
   transition: 0.5s;
+}
+
+#bachelor:after{
+    content:'[ БАКАЛАВРАТ ]';
+}
+#bachelor:hover:after{
+    content:'[ \00a0 \00a0 БАКАЛАВРАТ \00a0 \00a0 ]';
+    font-size: 1.1em;
+    text-shadow: 5px 4px 6px #037272;
+}
+
+#masters:after{
+    content:'[ МАГІСТРАТУРА ]';
+}
+#masters:hover:after{
+    content:'[ \00a0 \00a0 МАГІСТРАТУРА \00a0 \00a0 ]';
+    font-size: 1.1em;
+    text-shadow: 5px 4px 6px #037272;
+}
+
+#phd:after{
+    content:'[ АСПІРАНТУРА ]';
+}
+#phd:hover:after{
+    content:'[ \00a0 \00a0 АСПІРАНТУРА \00a0 \00a0 ]';
+    font-size: 1.1em;
+    text-shadow: 5px 4px 6px #037272;
 }
 
 </style>

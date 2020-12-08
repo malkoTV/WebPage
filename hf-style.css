@@ -5,33 +5,45 @@
 header{
   float:left;
   width: 100%;
-  height: 50%;
+  height: 534px;
   background-color: #00848C;
 }
 #Apeps{
   float:left;
-  margin-top: 10%;
+  margin-top: 7%;
   margin-left: 2.5%;
   width: 20%;
   height: 85px;
-  font-size: 1.5em;
-  font-family: 'EB Garamond', serif;
+  font-size: 1.9em;
+  font-family: 'Montserrat', sans-serif;
   color:#EDEBD9;
 }
 #img {
   float:right;
-  background-image: url(img/mainImg2.jpg);
+  background-image: url(img/Header13.jpg);
   background-size: cover;
-  width: 75%;
-  height: 500px;
+  width: 100%;
+  height: 86.9%;
+}
+image1{
+  position: relative;
+  width: 100%;
+  opacity: 0.6;
+}
+image2{
+  position: relative;
+  width: 100%;
+  opacity: 0.6;
 }
 #hMenu {
   float:left;
-  background-color: #EDEBD9;/* #FCCF17; /*#EDEBD9 ; */
+  background-color: #EDEBD9;
   padding-top: 8px;
   width: 100%;
   height: 56px;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: 3px solid #037272;
+  border-top: 3px solid #037272;
 }
 ul.elem-ul {
   display:flex;
@@ -101,10 +113,10 @@ footer {
     height: 350px;
 }
 .info {
-  font-family: sans-serif;
+  font-family: 'Montserrat Bold', sans-serif;
   float:left;
   width: 40%;
-  color: white;
+  color: #EDEBD9;
   margin-right: 0;
   margin-top: 5%;
 }
@@ -127,8 +139,8 @@ footer {
 }
 .mainMenu{
   text-decoration: none;
-  font-family: roboto,sans-serif;
-  color: white;
+  font-family: 'Montserrat' ,sans-serif;
+  color: #EDEBD9;
   margin-left:20px;
   font-size: 1.2em;
 }

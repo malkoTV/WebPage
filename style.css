@@ -9,22 +9,22 @@ html, body {
  body{font-size: 15px;}
 
 h2{
-  font-family: 'EB Garamond', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 50px;
 }
 
 h3{
-  font-family: 'Jura', sans-serif;
+  font-family: 'Montserrat Bold', sans-serif;
   font-size: 25px;
 }
 
 p{font-size: 20px;
-  font-family: 'Piazzolla', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 ul, ol {
   font-size: 20px;
-  font-family: 'Piazzolla', serif;
+  font-family: 'Montserrat Bold', serif;
    list-style-position: inside;
    padding: 10px;
 }
@@ -44,6 +44,16 @@ a{text-decoration: none;}
 .yellow-b{background-color: #ffe35a}
 .darkyellow-b{background-color: #fec20f}
 .beige-b{background-color: #edebd9;}
+
+.large-container1{
+  background-image: url(img/image1.jpg);
+  padding: 80px;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: left;
+  height: 100%;
+  opacity: 0.9;
+}
 
 .large-container{
   padding: 80px;
@@ -74,7 +84,7 @@ a{text-decoration: none;}
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-  font-family:'Piazzolla', serif;
+  font-family:'Montserrat Bold',sans-serif;
   cursor: pointer;
 }
 
@@ -159,29 +169,35 @@ border-radius: 12px;
 
 #bachelor:after{
     content:'[ БАКАЛАВРАТ ]';
+    transition: 0.7s;
 }
 #bachelor:hover:after{
     content:'[ \00a0 \00a0 БАКАЛАВРАТ \00a0 \00a0 ]';
     font-size: 1.1em;
     text-shadow: 5px 4px 6px #037272;
+    transition: 0.7s;
 }
 
 #masters:after{
     content:'[ МАГІСТРАТУРА ]';
+    transition: 0.7s;В
 }
 #masters:hover:after{
     content:'[ \00a0 \00a0 МАГІСТРАТУРА \00a0 \00a0 ]';
     font-size: 1.1em;
     text-shadow: 5px 4px 6px #037272;
+    transition: 0.7s;
 }
 
 #phd:after{
     content:'[ АСПІРАНТУРА ]';
+    transition: 0.7s;
 }
 #phd:hover:after{
     content:'[ \00a0 \00a0 АСПІРАНТУРА \00a0 \00a0 ]';
     font-size: 1.1em;
     text-shadow: 5px 4px 6px #037272;
+    transition: 0.7s;
 }
 
 </style>

@@ -1,0 +1,53 @@
+content {
+  background-color: #EDEBD9
+}
+.img1 {
+  float:left;
+  width: 52%;
+  height:400px;
+  margin: 4%;
+
+}
+.img2 {
+  float:right;
+  width: 52%;
+  height:400px;
+  margin: 4%;
+}
+img {
+  height:100%;
+  width:100%;
+}
+
+.textInfo1 {
+  float:right;
+  width: 30%;
+  height:400px;
+  margin: 4%;
+  text-align: center;
+}
+.textInfo2 {
+  float:left;
+  width: 30%;
+  height:400px;
+  margin: 4%;
+  text-align: center;
+
+}
+
+.stMenu {
+  list-style: none;
+  font-size: 28px;
+  padding: 35px;
+}
+.textInfo1 p {
+    font-size: 28px;
+    padding-top: 35px;
+}
+li {
+      padding-bottom: 25px;
+}
+li a {
+    text-decoration: none;
+    color: #037272;
+}

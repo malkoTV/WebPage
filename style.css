@@ -1,7 +1,7 @@
 <style>
 
 html, body {
-  height: 100%;
+   height: 100%;
    margin: 0;
    padding: 0;
  }
@@ -9,17 +9,17 @@ html, body {
  body{font-size: 15px;}
 
 h2{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 50px;
+  font-family: 'Roboto Black';
+  font-size: 70px;
 }
 
 h3{
-  font-family: 'Montserrat Bold', sans-serif;
-  font-size: 25px;
+  font-family: 'Roboto Medium';
+  font-size: 33px;
 }
 
 p{font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Medium';
 }
 
 ul, ol {
@@ -32,11 +32,12 @@ ul, ol {
 a{text-decoration: none;}
 /*colors*/
 .navy{color: #1c1f4c}
-.emerald{color: #00848c}
+.emerald{color: #494B71}
+.emerald1{color: #FE846D}
 .darkemerald{color: #037272}
-.yellow{color: #ffe35a}
+.yellow{color: #358D8E}
 .darkyellow{color: #fec20f}
-.beige{color: #edebd9;}
+.beige{color: #edebd9}
 
 .navy-b{background-color: #1c1f4c}
 .emerald-b{background-color: #00848c}
@@ -46,13 +47,35 @@ a{text-decoration: none;}
 .beige-b{background-color: #edebd9;}
 
 .large-container1{
-  background-image: url(img/image1.jpg);
+  background-image: url(img/background1.png);
+  background-color: #EDEBD9;
+  padding: 200px;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: left;
+  height: 650px;
+  background-size: cover;
+}
+.large-container2{
+  background-image: url(img/background2.png);
+  background-color: #EDEBD9;
+  padding: 200px;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+  height: 650px;
+  background-size: cover;
+}
+
+.large-container3{
+  background-image: url(img/background3.png);
+  background-color: #EDEBD9;
   padding: 80px;
   padding-left: 200px;
   padding-right: 200px;
   text-align: left;
-  height: 100%;
-  opacity: 0.9;
+  height: 700px;
+  background-size: cover;
 }
 
 .large-container{
@@ -98,7 +121,7 @@ a{text-decoration: none;}
 }
 
 .button1 {
-background-color: #4CAF50; /* Green */
+background-color: #037272;
 border: none;
 color: white;
 padding: 10px;
@@ -149,13 +172,18 @@ border-radius: 12px;
   padding: 50px;
 }
 
-#line1, #line2, #line3, #line4, #line5
-{
+.btnSlide{
   width: 80px;
-  height: 3px;
+  height: 5px;
   display: inline-block;
   cursor: pointer;
   background: #037272;
+  outline: none;
+}
+
+.btnSlide:focus {
+  background-color: #ffe35a;
+  outline: none;
 }
 
 #active {
@@ -180,7 +208,7 @@ border-radius: 12px;
 
 #masters:after{
     content:'[ МАГІСТРАТУРА ]';
-    transition: 0.7s;В
+    transition: 0.7s;
 }
 #masters:hover:after{
     content:'[ \00a0 \00a0 МАГІСТРАТУРА \00a0 \00a0 ]';
